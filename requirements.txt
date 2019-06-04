@@ -1,0 +1,6 @@
+boto3==1.9.160
+elasticsearch==7.0.2
+requests==2.22.0
+requests-aws4auth==0.9
+envparse==0.2.0
+
