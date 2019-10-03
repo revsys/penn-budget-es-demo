@@ -53,9 +53,26 @@ so for example:
 
 and not:
 
-`https:/search-whatever.klasdhfkjhadfkjhadsf.es-east-2.es.amazonaws.com`
+`https://search-whatever.klasdhfkjhadfkjhadsf.es-east-2.es.amazonaws.com`
 
 ## Documentation Links
 
 - [Python ElasticSearch Library](https://elasticsearch-py.readthedocs.io/en/master/index.html)
 - [AWS4Auth](https://github.com/DavidMuller/aws-requests-auth)
+
+## Example simple queries
+
+To do a simple programatic query, you can just run:
+
+```shell
+$ python search_metadata.py <value>
+```
+
+To query the entire metadata set.  So for example, to look for things related
+to Kansas you would type:
+
+```shell
+$ python search_metadata.py kansas
+```
+
+Which will return a JSON result of matching metadata items.
